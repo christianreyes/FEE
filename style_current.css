@@ -13,6 +13,7 @@ body {
 
 #wrapper {
 	width: 950px;
+	margin: 0 auto;
 }
 
 #menu 
@@ -38,16 +39,13 @@ body {
 #menu a {
 	display: block;
 	color: black;
-	width: 120px;
-	height: 25px;
+	width: 112px;
+	height: 60px;
 	padding-top: 5px;
 	border-right: 1px solid #FFFFFF;
 	text-decoration: none;
 	text-align: center;
-	font-family: Ariel, Helvetica, sans-serif;
-	font-size: 13px;
-	font-weight: bold;
-	border: none;
+	border-right: 1px solid white;
 }
 
 #menu a:hover, #menu .current_page_item a {
