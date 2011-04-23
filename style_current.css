@@ -11,6 +11,12 @@ body {
 	color: white;
 }
 
+h1#logo{
+	text-indent: -1000em;
+	margin: 0;
+	padding: 0;
+}
+
 #content a{
 	color: #8887c9;
 }
@@ -24,9 +30,8 @@ body {
 {
 	background: black url('images/menu-gradient.png') repeat-x;
     text-align: center;
-	width: 880px;
 	height: 60px;
-	margin: 0 auto;
+	margin: 0 0 0 20px;
 	padding: 0;
 }
 
