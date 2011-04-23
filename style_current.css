@@ -11,7 +11,7 @@ body {
 	color: white;
 	margin: 0;
 	padding: 0;
-	font-family: Arial, Verdana, Sans-Serif;
+	font-family: verdana, arial, sans-serif;
 	font-size: .8em;
 }
 
@@ -92,11 +92,12 @@ a#contact{
 	width: 112px;
 	height: 60px;
 	line-height: 60px;
-	font-family: Ariel, Verdana, sans-serif;
+	font-family: Arial, Verdana, sans-serif;
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
 	border-right: 1px solid gray;
+	font-weight: bold;
 }
 
 #menu a.current_page{
@@ -147,7 +148,6 @@ form#search button{
 	background-color: rgb(63, 63 ,63);
 	margin-top: 40px;
 	
-	font-family: verdana,Arial,Verdana,sans-serif,Helvetica;
 	font-size: 10px;
 	font-weight: 400;
 	font-style: normal;
