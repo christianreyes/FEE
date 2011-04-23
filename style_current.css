@@ -13,19 +13,26 @@ body {
 	padding: 0;
 }
 
-h1#logo{
-	text-indent: -1000em;
-	margin: 0;
-	padding: 0;
-}
-
-#content a{
-	color: #8887c9;
-}
-
 #wrapper {
 	width: 950px;
 	margin: 0 auto;
+}
+
+#header{
+	height: 67px;
+}
+
+h1#logo{
+	text-indent: -1000em;
+	background: transparent url('images/iclogowhitebold.png') no-repeat top left;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 57px;
+}
+
+h1#logo:hover{
+	background: transparent url('images/iclogoredbold.png') no-repeat top left;
 }
 
 #menu 
@@ -33,7 +40,7 @@ h1#logo{
 	background: black url('images/menu-gradient.png') repeat-x;
     text-align: center;
 	height: 60px;
-	margin: 0 0 0 20px;
+	margin: 0 0 20px 0;
 	padding: 0;
 }
 
@@ -75,4 +82,8 @@ h1#logo{
 	height: 400px;
 	width: 330px;
 	overflow:scroll;
+}
+
+#content a{
+	color: #8887c9;
 }
