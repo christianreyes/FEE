@@ -11,6 +11,10 @@ body {
 	color: white;
 }
 
+#content a{
+	color: #8887c9;
+}
+
 #wrapper {
 	width: 950px;
 	margin: 0 auto;
