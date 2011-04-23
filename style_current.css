@@ -53,11 +53,13 @@ h1#logo{
 	color: white;
 	width: 112px;
 	height: 60px;
+	font-size: .8em;
 	line-height: 60px;
+	font-family: Ariel, Verdana, sans-serif;
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
-	border-right: 1px solid white;
+	border-right: 1px solid gray;
 }
 
 #menu a:hover, #menu .current_page_item a {
