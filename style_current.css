@@ -33,7 +33,7 @@ h1#logo{
 }
 
 h1#logo:hover{
-	background: transparent url('images/iclogoredbold.png') no-repeat top left;
+	background: transparent url('images/iclogoredbold.png') no-repeat bottom left;
 }
 
 #menu 
