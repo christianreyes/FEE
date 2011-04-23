@@ -80,6 +80,21 @@ h1#logo:hover{
 	text-decoration: none;
 }
 
+form#search{
+	position:  relative;
+	float: right;
+	width: 255px;
+	height: 60px;
+	background-color: black;
+	background-image: url('images/search-tab.png');
+}
+
+form#search input{
+	position: absolute;
+	top: 30px;
+	left: 19px;
+}
+
 #content{
 	position: relative;
 	border: 1px solid white;
