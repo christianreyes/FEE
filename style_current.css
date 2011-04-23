@@ -84,7 +84,7 @@ h1#logo:hover{
 	position: relative;
 	border: 1px solid white;
 	padding: 1px;
-	background-color: black;
+	background-color: rgb(63, 63 ,63);;
 	margin-top: 40px;
 }
 
@@ -121,7 +121,7 @@ a#full-story{
 	background-color: #b82633;
 	height: 5px;
 }
-
+	
 .round-edge {
 	-moz-border-radius: 3px;
     border-radius: 3px;
