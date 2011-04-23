@@ -6,6 +6,15 @@
 	http://www.icarnegie.com/News/news.php
 */
 
+body {
+	background-color: #151515;
+	color: white;
+}
+
+#wrapper {
+	width: 950px;
+}
+
 #menu 
 {
     text-align: center;
