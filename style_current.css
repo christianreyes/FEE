@@ -9,6 +9,8 @@
 body {
 	background-color: #151515;
 	color: white;
+	margin: 0;
+	padding: 0;
 }
 
 h1#logo{
@@ -51,6 +53,7 @@ h1#logo{
 	color: white;
 	width: 112px;
 	height: 60px;
+	line-height: 60px;
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
