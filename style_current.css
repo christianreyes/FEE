@@ -76,8 +76,9 @@ h1#logo:hover{
 }
 
 #content{
+	position: relative;
 	border: 1px solid white;
-	margin: 40px;
+	margin-top: 40px;
 }
 
 #content-picture {
@@ -88,10 +89,12 @@ h1#logo:hover{
 }
 
 #content-sidebar {
-	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
 	padding: 0;
 	height: 400px;
-	width: 265px;
+	width: 350px;
 	overflow:scroll;
 }
 #content a{
