@@ -2,16 +2,17 @@
 	Christian Reyes
 	Emmanuel Agbanyo
 
-	Front End Engineers
+	Future Front End Engineers
 	http://www.icarnegie.com/News/news.php
 */
 
 body {
-	background-color: #151515;
+	background: #151515 url('images/body-gradient.png') repeat-x top left;
 	color: white;
 	margin: 0;
 	padding: 0;
-	font-family: Ariel, Verdana, Sans-Serif;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: .8em;
 }
 
 #wrapper {
@@ -25,15 +26,15 @@ body {
 
 h1#logo{
 	text-indent: -1000em;
-	background: transparent url('images/iclogowhitebold.png') no-repeat bottom left;
+	background: transparent url('images/iclogowhitebold.png') no-repeat 5px 11px;
 	margin: 0;
 	padding: 0;
 	width: 200px;
-	height: 57px;
+	height: 67px;
 }
 
 h1#logo:hover{
-	background: transparent url('images/iclogoredbold.png') no-repeat bottom left;
+	background: transparent url('images/iclogoredbold.png') no-repeat 5px 11px;
 }
 
 #menu 
@@ -61,7 +62,6 @@ h1#logo:hover{
 	color: white;
 	width: 112px;
 	height: 60px;
-	font-size: .8em;
 	line-height: 60px;
 	font-family: Ariel, Verdana, sans-serif;
 	text-decoration: none;
