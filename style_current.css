@@ -22,6 +22,7 @@ body {
 
 #header{
 	height: 67px;
+	position: relative;
 }
 
 h1#logo{
@@ -35,6 +36,16 @@ h1#logo{
 
 h1#logo:hover{
 	background: transparent url('images/iclogoredbold.png') no-repeat 5px 11px;
+}
+
+a#contact{
+	position: absolute;
+	float: right;
+}
+
+a#login{
+	position: absolute;
+	float: right;
 }
 
 #menu 
