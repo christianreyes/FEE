@@ -54,7 +54,7 @@ a#powered_by span{
 }
 
 a#powered_by{
-	
+	text-decoration: none;
 	float: right;
 }
 
