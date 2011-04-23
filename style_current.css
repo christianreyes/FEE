@@ -25,30 +25,44 @@ body {
 	position: relative;
 }
 
-h1#logo{
+a#logo h1{
 	text-indent: -1000em;
 	background: transparent url('images/iclogowhitebold.png') no-repeat 5px 11px;
 	margin: 0;
 	padding: 0;
 	width: 200px;
 	height: 67px;
+	display: inline-block;
 }
 
-h1#logo a{
+a#logo{
 	text-decoration: none;
 }
 
-h1#logo:hover{
+a#logo h1:hover{
 	background: transparent url('images/iclogoredbold.png') no-repeat 5px 11px;
 }
 
-a#contact{
-	position: absolute;
+a#powered_by span{
+	text-indent: -1000em;
+	background: transparent url('images/cmu_top.png') no-repeat 5px 11px;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 67px;
+	display: inline-block;
+}
+
+a#powered_by{
+	text-decoration: none;
 	float: right;
 }
 
 a#login{
-	position: absolute;
+	float: right;
+}
+
+a#contact{
 	float: right;
 }
 
