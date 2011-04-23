@@ -34,6 +34,10 @@ h1#logo{
 	height: 67px;
 }
 
+h1#logo a{
+	text-decoration: none;
+}
+
 h1#logo:hover{
 	background: transparent url('images/iclogoredbold.png') no-repeat 5px 11px;
 }
@@ -96,7 +100,7 @@ form#search{
 	float: right;
 	width: 255px;
 	height: 60px;
-	background-color: black;
+	background-color: transparent;
 	background-image: url('images/search-tab.png');
 }
 
