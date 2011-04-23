@@ -75,15 +75,25 @@ h1#logo:hover{
 	text-decoration: none;
 }
 
-#content {
+#content{
 	border: 1px solid white;
 	margin: 40px;
-	padding: 0;
-	height: 400px;
-	width: 330px;
-	overflow:scroll;
 }
 
+#content-picture {
+	padding: 0;
+	height: 400px;
+	width: 600px;
+	background: black url('images/development-picture.png') no-repeat top left;
+}
+
+#content-sidebar {
+	float: right;
+	padding: 0;
+	height: 400px;
+	width: 265px;
+	overflow:scroll;
+}
 #content a{
 	color: #8887c9;
 }
