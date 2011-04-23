@@ -69,5 +69,10 @@ h1#logo{
 }
 
 #content {
-	
+	border: 1px solid white;
+	margin: 40px;
+	padding: 0;
+	height: 400px;
+	width: 330px;
+	overflow:scroll;
 }
