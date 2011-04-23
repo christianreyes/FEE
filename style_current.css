@@ -96,10 +96,11 @@ h1#logo:hover{
 	position: absolute;
 	top: 0;
 	right: 0;
-	padding: 0;
-	height: 400px;
-	width: 350px;
+	padding: 10px;
+	height: 380px;
+	width: 320px;
 	overflow:scroll;
+	overflow-x: hidden;
 }
 
 #content a{
