@@ -11,6 +11,7 @@ body {
 	color: white;
 	margin: 0;
 	padding: 0;
+	font-family: Ariel, Verdana, Sans-Serif;
 }
 
 #wrapper {
@@ -82,6 +83,8 @@ h1#logo:hover{
 #content{
 	position: relative;
 	border: 1px solid white;
+	padding: 1px;
+	background-color: black;
 	margin-top: 40px;
 }
 
@@ -105,4 +108,9 @@ h1#logo:hover{
 
 #content a{
 	color: #8887c9;
+}
+
+.round-edge {
+	-moz-border-radius: 3px;
+    border-radius: 3px;
 }
