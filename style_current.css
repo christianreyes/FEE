@@ -18,9 +18,10 @@ body {
 
 #menu 
 {
+	background: black url('images/menu-gradient.png') repeat-x;
     text-align: center;
 	width: 880px;
-	height: 30px;
+	height: 60px;
 	margin: 0 auto;
 	padding: 0;
 }
