@@ -48,22 +48,37 @@ a#powered_by span{
 	background: transparent url('images/cmu_top.png') no-repeat 5px 11px;
 	margin: 0;
 	padding: 0;
-	width: 200px;
+	width: 215px;
 	height: 67px;
 	display: inline-block;
 }
 
 a#powered_by{
-	text-decoration: none;
+	
 	float: right;
 }
 
 a#login{
-	float: right;
+	background: transparent url('images/icon-screen.gif') no-repeat -2px left;
 }
 
 a#contact{
+	background: transparent url('images/icon-phone.png') no-repeat top left;
+	height: 22px;
+	display: inline-block;
+	line-height: 17px;
+	margin-top: 43px;
+}
+
+.top_links {
 	float: right;
+	text-decoration: none;
+	color: #8887c9;
+	text-indent: 25px;
+	margin-top: 45px;
+	margin-right: 14px;
+	font-size: .9em;
+	font-weight: 700;
 }
 
 #menu 
@@ -219,8 +234,4 @@ a#full-story{
 .round-edge {
 	-moz-border-radius: 3px;
     border-radius: 3px;
-}
-
-p {
-	color: #FFFFFF;
 }
