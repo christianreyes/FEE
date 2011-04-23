@@ -91,8 +91,19 @@ form#search{
 
 form#search input{
 	position: absolute;
-	top: 30px;
+	top: 28px;
 	left: 19px;
+	width: 184px;
+}
+
+form#button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent url('images/go.gif') no-repeat center top;
+	text-indent: -1000em;
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
 }
 
 #content{
