@@ -86,6 +86,15 @@ h1#logo:hover{
 	padding: 1px;
 	background-color: rgb(63, 63 ,63);;
 	margin-top: 40px;
+	
+	font-family: verdana,Arial,Verdana,sans-serif,Helvetica;
+	font-size: 13.3333px;
+	font-weight: 400;
+	font-style: normal;
+	color: #8888FF;
+	
+	line-height:20px;
+	text-align:justify;
 }
 
 #content-picture {
@@ -110,11 +119,22 @@ h1#logo:hover{
 	background-image:url('images/arrow.gif');
 	background-repeat:no-repeat;
 	background-position:0px 5px; 
-	padding-left:16px;
+	
+	font-family: verdana,Arial,Verdana,sans-serif,Helvetica;
+	font-size: 13.3333px;
+	font-weight: 400;
+	font-style: normal;
+	color: #8888FF;
+	
+	padding: 0;
+	margin: 0;
+	text-indent: 0;
+	
 }
 
 #content a{
 	color: #8887c9;
+	text-decoration:none;
 }
 
 a#full-story{ 
@@ -132,4 +152,8 @@ a#full-story{
 .round-edge {
 	-moz-border-radius: 3px;
     border-radius: 3px;
+}
+
+p {
+	color: #FFFFFF;
 }
