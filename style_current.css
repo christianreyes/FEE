@@ -5,3 +5,44 @@
 	Front End Engineers
 	http://www.icarnegie.com/News/news.php
 */
+
+#menu 
+{
+    text-align: center;
+	width: 880px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	color: black;
+	width: 120px;
+	height: 25px;
+	padding-top: 5px;
+	border-right: 1px solid #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	font-family: Ariel, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	color: white;
+	background-color: black;
+	text-decoration: none;
+}
