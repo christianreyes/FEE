@@ -59,7 +59,7 @@ a#powered_by{
 }
 
 a#login{
-	background: transparent url('images/icon-screen.gif') no-repeat -2px left;
+	background: transparent url('images/icon-screen.gif') no-repeat top left;
 }
 
 a#contact{
