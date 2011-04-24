@@ -179,6 +179,10 @@ form#search button{
 	background: black url('images/development-picture.png') no-repeat top left;
 }
 
+#content p{
+	color: white;
+}
+
 #content-sidebar {
 	position: absolute;
 	top: 0;
