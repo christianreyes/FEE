@@ -31,16 +31,34 @@ a {
 	width: 200px;
 	float: left;
 	background-color: #DEF;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-#menu a {
-	
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	line-height: 20px;
+	border: 1px solid #ccc;
+	background-color: white;
+	overflow: hidden;
+	font-weight: bold;
 }
 
 #menu a.current_page{
+	background-color: #A33B23;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	padding-left: 0;
+}
+
+#menu a:hover{
 
 }
 
