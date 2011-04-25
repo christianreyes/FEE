@@ -21,9 +21,10 @@ a {
 	background-color: #DDD;
 }
 
-#wrapper{
+#wrapper{	
+	min-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
-	width: 800px;
 }
 
 #menu{
@@ -45,14 +46,15 @@ a {
 
 #content{
 	background-color: #EEE;
-	width: 600px;
-	float: right;
+	padding-left: 220px;
+	padding-top: 20px;
 }
 
 #content-picture {
 	padding: 0;
 	height: 400px;
 	width: 600px;
+	margin: 0 auto;
 	background: black url('images/development-picture.png') no-repeat top left;
 }
 
@@ -68,13 +70,23 @@ a {
 	overflow: hidden;
 	border: 1px solid #ccc;
 	background-color: white;
-	padding-left: 10px;
+	padding-left: 5px;
 }
 
 #content li a{
 	color: black;
-	font-weight: bold;
 	text-decoration: none;
+}
+
+#content li span{
+	font-weight: bold;
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right: 1px solid #ddd;
+}
+
+#content li a:hover{
+	text-decoration: underline;
 }
 
 #content li:hover{
