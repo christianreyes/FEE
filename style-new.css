@@ -5,6 +5,17 @@
 	Future Front End Engineers
 	http://www.icarnegie.com/News/news.php
 */
+body {
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: verdana, arial, sans-serif;
+	font-size: .8em;
+}
+
+a {
+	text-decoration: none;
+}
 
 #header{
 	clear: both;
@@ -20,6 +31,17 @@
 	width: 200px;
 	float: left;
 	background-color: #DEF;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#menu a {
+	
+}
+
+#menu a.current_page{
+
 }
 
 #content{
