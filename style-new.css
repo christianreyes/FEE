@@ -27,3 +27,36 @@
 	width: 600px;
 	float: right;
 }
+
+#content-picture {
+	padding: 0;
+	height: 400px;
+	width: 600px;
+	background: black url('images/development-picture.png') no-repeat top left;
+}
+
+#content ul{
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#content li{
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: white;
+	padding-left: 10px;
+}
+
+#content li a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#content li:hover{
+	background-color: #efefef;
+}
+
