@@ -6,3 +6,24 @@
 	http://www.icarnegie.com/News/news.php
 */
 
+#header{
+	clear: both;
+	background-color: #DDD;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 800px;
+}
+
+#menu{
+	width: 200px;
+	float: left;
+	background-color: #DEF;
+}
+
+#content{
+	background-color: #EEE;
+	width: 600px;
+	float: right;
+}
