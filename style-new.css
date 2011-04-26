@@ -10,6 +10,7 @@ body {
 	padding: 0;
 	font-family: verdana, arial, sans-serif;
 	font-size: .8em;
+	border: 1px solid gray;
 }
 
 a {
@@ -19,6 +20,7 @@ a {
 #header{
 	clear: both;
 	background-color: #DDD;
+	border: 1px solid gray;
 }
 
 #wrapper{	
@@ -30,9 +32,9 @@ a {
 #menu{
 	width: 200px;
 	float: left;
-	background-color: #DEF;
 	margin: 0;
 	padding: 0;
+	border: 1px solid gray;
 }
 
 #menu ul {
@@ -54,18 +56,20 @@ a {
 	background-color: #A33B23;
 	color: white;
 	display: inline-block;
-	width: 100%;
-	padding-left: 0;
 }
 
-#menu a:hover{
-
+#menu li:hover{
+	background-color: #efefef;
+	font-weight: bold;
+	padding-right: 5px;
+	margin-right: 5px;
 }
 
 #content{
 	background-color: #EEE;
 	padding-left: 220px;
 	padding-top: 20px;
+	border: 1px solid gray;
 }
 
 #content-picture {
@@ -74,6 +78,10 @@ a {
 	width: 600px;
 	margin: 0 auto;
 	background: black url('images/development-picture.png') no-repeat top left;
+}
+
+#content-sidebar{
+	border-left: 1px solid gray;
 }
 
 #content ul{
