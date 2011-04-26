@@ -5,20 +5,15 @@
 	Future Front End Engineers
 	http://www.icarnegie.com/News/news.php
 */
+
 body {
+	background: #FFF url('images/body-gradient.png') repeat-x top left;
+	background-color: #black;
+	color: black;
 	margin: 0;
 	padding: 0;
 	font-family: verdana, arial, sans-serif;
 	font-size: .8em;
-}
-
-a {
-	text-decoration: none;
-}
-
-#header{
-	clear: both;
-	background-color: #DDD;
 }
 
 #wrapper{	
@@ -27,35 +22,185 @@ a {
 	margin: 0 auto;
 }
 
-#menu{
-	width: 200px;
-	float: left;
-	background-color: #DEF;
-	height: 100%;
+#header{
+	height: 67px;
+	position: relative;
+}
+
+a#logo h1{
+	text-indent: -1000em;
+	background: transparent url('images/iclogowhitebold.png') no-repeat 5px 11px;
 	margin: 0;
 	padding: 0;
+	width: 200px;
+	height: 67px;
+	display: inline-block;
+}
+
+a#logo{
+	text-decoration: none;
+}
+
+a#logo h1:hover{
+	background: transparent url('images/iclogoredbold.png') no-repeat 5px 11px;
+}
+
+a#powered_by span{
+	text-indent: -1000em;
+	background: transparent url('images/cmu_top.png') no-repeat 5px 11px;
+	margin: 0;
+	padding: 0;
+	width: 215px;
+	height: 67px;
+	display: inline-block;
+}
+
+a#powered_by{
+	text-decoration: none;
+	float: right;
+}
+
+a#login{
+	background: transparent url('images/icon-screen.gif') no-repeat top left;
+}
+
+a#contact{
+	background: transparent url('images/icon-phone.png') no-repeat top left;
+	height: 22px;
+	display: inline-block;
+	line-height: 17px;
+	margin-top: 43px;
+}
+
+.top_links {
+	float: right;
+	text-decoration: none;
+	color: #8887c9;
+	text-indent: 25px;
+	margin-top: 45px;
+	margin-right: 14px;
+	font-size: .9em;
+	font-weight: 700;
+}
+
+#menu 
+{
+	background: black url('images/menu-gradient.png') repeat-x;
+    text-align: center;
+	height: 60px;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
 }
 
 #menu a {
-	
+	display: block;
+	color: white;
+	width: 107px;
+	height: 60px;
+	line-height: 60px;
+	font-family: Arial, Verdana, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 1px solid gray;
+	font-weight: bold;
 }
 
 #menu a.current_page{
+	background: black url('images/menu-gradient-selected.png') repeat-x;
+}
 
+#menu a:hover{
+	color: white;
+	background: black url('images/menu-gradient-hover.png') repeat-x;
+	text-decoration: none;
+}
+
+form#search{
+	position:  relative;
+	float: right;
+	width: 255px;
+	height: 60px;
+	background-color: transparent;
+	background-image: url('images/search-tab.png');
+}
+
+form#search input{
+	position: absolute;
+	top: 28px;
+	left: 19px;
+	width: 184px;
+}
+
+form#search button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: absolute;
+	top: 32px;
+	left: 215px;
+	width: 24px;
+	height: 18px;
+	background: transparent url('images/go.bmp') no-repeat center top;
+	text-indent: -1000em;
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
 }
 
 #content{
-	background-color: #EEE;
-	padding-left: 220px;
-	padding-top: 20px;
+	position: relative;
+	border: 1px solid white;
+	padding: 1px;
+	background-color: rgb(63, 63 ,63);
+	margin-top: 40px;
+	
+	font-size: 10px;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	
+	line-height:20px;
+	text-align:justify;
 }
 
 #content-picture {
-	padding: 0;
+	/*position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;*/
 	height: 400px;
 	width: 600px;
-	margin: 0 auto;
 	background: black url('images/development-picture.png') no-repeat top left;
+}
+
+#content p{
+	color: white;
+}
+
+#content-sidebar {
+	/*position: absolute;
+	top: 0;
+	right: 0;width: 20%;*/
+	padding: 10px;
+	height: 380px;
+	
+	overflow:scroll;
+	overflow-x: hidden;
+	/*
+	border-top:1px solid black;
+	border-right: 1px solid black;
+	border-bottom:1px solid black;*/
 }
 
 #content ul{
@@ -93,3 +238,20 @@ a {
 	background-color: #efefef;
 }
 
+/*
+a#full-story{ 
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}*/
+
+#footer {
+	margin-top: 30px;
+	background-color: #b82633;
+	height: 5px;
+}
+	
+.round-edge {
+	-moz-border-radius: 3px;
+    border-radius: 3px;
+}
