@@ -8,7 +8,7 @@
 
 body {
 	background: #FFF url('images/body-gradient-red.png') repeat-x top left;
-	background-color: #640000;
+	background-color: #460000;
 	color: black;
 	margin: 0;
 	padding: 0;
@@ -75,7 +75,7 @@ a#contact{
 .top_links {
 	float: right;
 	text-decoration: none;
-	color: #8887c9;
+	color: white;
 	text-indent: 25px;
 	margin-top: 45px;
 	margin-right: 14px;
@@ -85,7 +85,7 @@ a#contact{
 
 #menu 
 {
-	background: black url('images/menu-gradient-white.png') repeat-x;
+	background: black url('images/menu-gradient-red.png') repeat-x;
     text-align: center;
 	height: 60px;
 	margin: 0 0 20px 0;
@@ -121,13 +121,13 @@ a#contact{
 }
 
 #menu a.current_page{
-	background: black url('images/menu-gradient-selected.png') repeat-x;
+	background: black url('images/menu-gradient-red-selected.png') repeat-x;
 	color: white;
 }
 
 #menu a:hover{
 	color: white;
-	background: black url('images/menu-gradient-hover.png') repeat-x;
+	background: black url('images/menu-gradient-red-hover.png') repeat-x;
 	text-decoration: none;
 	-moz-border-radius: 3px;
     border-radius: 3px;
@@ -167,7 +167,7 @@ form#search button{
 #content{
 	border: 1px solid white;
 	padding: 1px;
-	background-color: #eee;
+	background-color: white;
 	margin-top: 40px;
 	
 	font-size: 10px;
