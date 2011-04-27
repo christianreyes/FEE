@@ -234,7 +234,7 @@ ul#article-pictures {
 	background-color: #bbb;
 }
 
-#content-sidebar li span{
+#content-sidebar li span:first-child{
 	font-weight: bold;
 	color: black;
 	padding-right: 5px;
