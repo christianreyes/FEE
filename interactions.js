@@ -1,3 +1,5 @@
+// Written by Christian Reyes
+
 $(function() {
 	$("#article-pictures li").hide();
 	$("#article-pictures li:first").show();
