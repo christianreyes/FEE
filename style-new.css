@@ -159,7 +159,6 @@ form#search button{
 }
 
 #content{
-	position: relative;
 	border: 1px solid white;
 	padding: 1px;
 	background-color: rgb(63, 63 ,63);
@@ -174,11 +173,13 @@ form#search button{
 	text-align:justify;
 }
 
+
 #content-picture {
 	/*position: absolute;
 	top: 0;
 	right: 0;
 	padding: 0;*/
+	float: left;
 	height: 400px;
 	width: 600px;
 	background: black url('images/development-picture.png') no-repeat top left;
@@ -192,11 +193,8 @@ form#search button{
 	/*position: absolute;
 	top: 0;
 	right: 0;width: 20%;*/
-	padding: 10px;
-	height: 380px;
-	
-	overflow:scroll;
-	overflow-x: hidden;
+	padding-left: 610px;
+	padding-right: 10px;
 	/*
 	border-top:1px solid black;
 	border-right: 1px solid black;
