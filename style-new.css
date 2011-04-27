@@ -8,7 +8,7 @@
 
 body {
 	background: #FFF url('images/body-gradient-red.png') repeat-x top left;
-	background-color: #460000;
+	background-color: #000b27;
 	color: black;
 	margin: 0;
 	padding: 0;
@@ -20,6 +20,7 @@ body {
 	min-width: 800px;
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 #header{
@@ -83,12 +84,16 @@ a#contact{
 	font-weight: 700;
 }
 
+.top_links:hover {
+	text-decoration: underline;
+}
+
 #menu 
 {
 	background: black url('images/menu-gradient-red.png') repeat-x;
     text-align: center;
 	height: 60px;
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 	padding: 0;
 	box-shadow: 2px 2px 2px #111;
 	-webkit-box-shadow: 2px 2px 2px #111;
@@ -164,10 +169,10 @@ form#search button{
 }
 
 #content{
-	border: 1px solid white;
+	border: 1px solid black;
 	padding: 1px;
 	background-color: white;
-	margin-top: 40px;
+	margin-top: 0px;
 	
 	font-size: 10px;
 	font-weight: 400;
@@ -212,6 +217,12 @@ ul#article-pictures {
 	border-bottom:1px solid black;*/
 }
 
+#content-sidebar h2{
+	text-align: center;
+	font-size: 2em;
+	line-height: 0px;
+}
+
 #content-sidebar ul{
 	list-style-type: none;
 	margin-left: 0px;
@@ -222,18 +233,14 @@ ul#article-pictures {
 	height: 25px;
 	line-height: 25px;
 	overflow: hidden;
-	border: 1px solid #ddd;
-	background-color: white;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 	padding-left: 5px;
 }
 
 #content-sidebar li a{
 	color: #666;
 	text-decoration: none;
-}
-
-#content-sidebar li.selected{
-	background-color: #bbb;
 }
 
 #content-sidebar li span:first-child{
@@ -248,8 +255,8 @@ ul#article-pictures {
 	text-decoration: underline;
 }
 
-#content-sidebar li:hover{
-	background-color: #efefef;
+#content-sidebar li:hover, #content-sidebar li.selected{
+	background: #efefef url('images/li-hover.png') repeat-x top left;
 }
 
 ul#article {
@@ -263,8 +270,8 @@ ul#article h2{
 	font-weight: 600;
 	text-align: center;
 	line-height: 2em;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
 }
 
 /*
