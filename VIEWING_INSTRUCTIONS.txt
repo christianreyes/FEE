@@ -1,0 +1,3 @@
+To view the site as it currently is on iCarnegie.com, open the news.html file. The file is linked to the "style-current.css" file. 
+
+To view our redesign of the site, open news-new.html file. Everything is the same in that html as the "current" news page except that this page links to the "style-new.css" and the jquery library and our custom script for the page. Please click on the articles on our custom page and see the articles and pictures get updated.
