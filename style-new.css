@@ -125,6 +125,8 @@ a#contact{
 	color: white;
 	background: black url('images/menu-gradient-hover.png') repeat-x;
 	text-decoration: none;
+	-moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 form#search{
